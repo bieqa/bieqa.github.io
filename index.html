@@ -1,0 +1,700 @@
+ <!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml">
+<!-- #BeginTemplate "bioRobSimple.dwt" -->
+<head>
+<!--luhuijun-0802---------------------------------------------------------------->
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!--<script type="text/javascript" src="js/timothy.js"></script>-->
+     <script type="text/javascript" src="js/slider.js"></script>
+     <script type="text/javascript" src="js/simple-menu.js"></script>
+
+	<script type="text/javascript">var switchTo5x=true;</script>
+     <script type="text/javascript" src="buttons.js"></script>
+     <script type="text/javascript">stLight.options({publisher: "ur-188beea2-d47-d892-3c0e-e51b985258a1"}); </script>	
+     
+	<script type="text/javascript">  // This is the script for the banner slider
+		$(document).ready(function() {
+			$('#slider').s3Slider({
+				timeOut: 3000
+			});
+		});
+	</script>
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>	
+	<link href='http://fonts.googleapis.com/css?family=Kotta+One' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Linden+Hill' rel='stylesheet' type='text/css'>
+          
+     <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+     <link href="css/print.css" rel="stylesheet" type="text/css" media="print">
+	<link href="css/slider.css" rel="stylesheet" type="text/css" media="screen">
+     <link href="css/simple-menu.css" rel="stylesheet" type="text/css" media="screen">
+     
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="cache" />
+	
+     <meta name="robots" content="INDEX,FOLLOW" />
+     <meta name="robots" content="noimageindex">
+
+	<title>Laboratory For Medical Image Data Sciences</title>
+
+
+ 
+
+	
+
+	<script type="text/javascript">
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+     function MM_swapImgRestore() { //v3.0
+       var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+     }
+     
+     function MM_findObj(n, d) { //v4.01
+       var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+         d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+       if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+       for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+       if(!x && d.getElementById) x=d.getElementById(n); return x;
+     }
+     
+     function MM_swapImage() { //v3.0
+       var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+        if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+     }
+     </script>
+<meta name="keywords" content="Enter Keywords" />
+     <meta name="description" content="Description Here" />
+     <link href="css/olive.css" rel="stylesheet" type="text/css" media="screen">
+     <link href="css/left-column.css" rel="stylesheet" type="text/css" media="screen">
+	 <!-- Google Analytics Code Goes Below Here -->
+	 <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104626631-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <!-- random Google Analytics Code -->
+</head>
+ 
+  
+		 
+        
+		 
+ 
+	
+ 
+
+<body>
+<!---10.12-------------begin------------------->
+
+
+
+<!----10.12------------end--------------------->
+
+
+
+<div id="wrapper">
+   <div style="border-bottom:21px solid #77773c"  class="heading-bg-new">	
+		  <div id="content">
+            		  
+					<div class="heading-left"> 
+						<a href="http://nus.edu.sg" target="_blank"> <img alt="" src="images/logo.png" ></a>
+					</div>
+					<div class="heading-right">
+					   
+						  <p class="name3">Laboratory For Medical Image Data Sciences</p>  		
+					</div> 
+			   
+ 	      
+            
+						 
+<!----luhuijun try0802--------------------------------------------------------------------------------->	
+
+ 			 
+	 <div  class="topnav">
+  
+ 
+ 
+		<div   class="w3-bar w3-mobile  w3-white w3-text-black  w3-row-padding w3-margin-top">
+   
+  
+			  <a href="index.html" target="_blank" class="w3-bar-item w3-button w3-mobile w3-large w3-text-black w3-hover-teal ">Home</a>
+			<div class="w3-dropdown-hover w3-mobile ">
+			  <button class="w3-button w3-mobile w3-large w3-hover-teal w3-padding-small  "><p class="myfont">Software</p></button>
+			  <div class="w3-dropdown-content w3-bar-block w3-text-black w3-mobile  ">
+
+				<a href="./deeplearning.html"class="w3-bar-item w3-button w3-mobile w3-large w3-text-black w3-hover-teal" >Deep Learning Toolbox</a>
+
+			  
+				<a href="./imaginggenetics.html"class="w3-bar-item w3-button w3-mobile w3-large w3-text-black w3-hover-teal" >Imaging Genetics Toolbox</a>
+				<a href="./brainmapping.html" class="w3-bar-item w3-button w3-mobile w3-large  w3-text-black w3-hover-teal">LDDMM Brain Imaging Mapping Toolbox</a>
+				<a href="./spectrum_LBW.html" class="w3-bar-item w3-button w3-mobile  w3-large w3-text-black  w3-hover-teal">Spectral Laplace-Beltrami Wavelets Toolbox</a>
+		   
+			  </div>
+			</div>
+
+	
+ 
+	 
+	
+					<div class="w3-dropdown-hover w3-mobile ">
+					  <button class="w3-button w3-mobile w3-large w3-hover-teal w3-padding-small"><p class="myfont">Research</p></button>
+					  <div class="w3-dropdown-content w3-bar-block  w3-mobile  ">
+					   
+						<a href="manifold_shape.html" class="w3-bar-item w3-button w3-mobile w3-large w3-text-black w3-hover-teal">Manifold learning  &amp; Deep learning </a>
+						
+							<a href="subcortical_shape.html" class="w3-bar-item w3-button w3-mobile w3-large w3-text-black w3-hover-teal"> LDDMM</a>  
+								
+							<a href="Imaging_Genetics2.html" class="w3-bar-item w3-button w3-mobile  w3-large w3-text-black w3-hover-teal"> Imaging Genetics</a>
+							<a href="./signal.html" class="w3-bar-item w3-button w3-mobile  w3-large w3-text-black w3-hover-teal"> Signal Processing On Manifold </a>
+								
+						  
+					 
+						 
+					 </div>
+					 </div>
+      
+   
+	
+					 <a href="./publications.html" class="w3-bar-item w3-button w3-mobile w3-large w3-text-black w3-hover-teal ">Publications</a>
+					 <a href="./Job-Openings.html" class="w3-bar-item w3-button w3-mobile  w3-large w3-text-black w3-hover-teal  ">Job&nbsp;Openings</a>
+					 <a href="./contact.html" class="w3-bar-item w3-button w3-mobile w3-large w3-text-black w3-hover-teal  ">Contact&nbsp;Us</a>
+					 
+ 
+ 
+ 
+	
+	
+
+					</div>	
+		</div> <!--topnav-->					 
+ 		 
+         
+   </div>     <!--content--> 
+  </div>       <!--heading-bg-new-->
+ <!---------luhuijun0802-------------------------------------------------------------------------------->
+ <!---2018.5.21-------------begin-------------------------------------------------------------->
+
+      
+		 
+
+
+
+<!----2018.5.21------------end------------------------------------------------------------------------------->
+				   			  
+    
+  
+     
+   	<!-- Content Container begins here -->      
+     <div id="content">
+	 <div id="top-content"><!-- #BeginEditable "top-content" -->
+     	 
+		
+		<!----------------temp-------------------------------------------->
+	 <div class="research_menu">
+		<div id="keyAreas">
+            <h1 > Key Research Areas</h1> 
+		
+		 
+				 <div class="column">
+					 <a href="manifold_shape.html">
+            
+                         <img alt="" src="images/res_pic/img1.jpg" class="img" style="width:100%;max-width:150px;height:100px" >
+                         <h4 style="text-align:center;">Manifold Learning  &amp;  Deep Learning</h4>                      
+                         </a>
+				 </div>	 
+                <div class="column">
+					 <a href="subcortical_shape.html">
+                         <img alt="" src="images/res_pic/LDDMM.png" class="img" style="width:100%;max-width:150px;height:100px" >
+                         <h4 style="text-align:center;">LDDMM</h4>
+                         
+                         </a>
+				 </div>	
+				 <div class="column">
+						<a href="Imaging_Genetics2.html">
+                         <img alt="" src="images/neonatal_anat_net.jpg" class="img" style="width:100%;max-width:150px;height:100px">
+                         <h4 style="text-align:center;"> imaging genetics</h4>
+                           
+                        </a>  
+				 </div>	
+				 <div class="column">
+					<a  href="./signal.html">
+
+                         <img alt="" src="images/res_pic/img4.png" class="img" style="width:100%;max-width:150px;height:100px">
+                         <h4 style="text-align:center;">Signal Processing On Manifold</h4>
+                         </a> 
+				 </div>	
+      
+  </div>
+</div>    
+		 <!----------------temp---------------------------------------------->
+  
+			<!-----copy----end------------------------------------>
+			
+  
+ 
+			
+			
+     
+	 <!----luhuijun-------news scroll--------------------------------------------------------------->
+	 <div class="news" style="height:550px;margin:0px 0 0 0; font-size:20px">
+	    <!-- Container element -->
+				<h1 class="w3-wide">Latest News</h1><br>
+	         
+
+				<div style="height:200px; font-size:20px">
+				
+	<!--copy begin---------------------------------------------------->
+ 
+ 
+ 	<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+	
+	<h3> A/P Qiu is selected as Editor in Neuroimage.
+    </h3>
+<p>
+</p>
+                
+          
+                        <p class="post-footer align-right">
+                                
+                        </p>
+
+                        <p><br /><br /></p>
+
+    
+	<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+	
+	<h3> A/P Qiu is selected as Program Committee Member at Organization for Human Brain Mapping.
+    </h3>
+<p>
+</p>
+                
+          
+                        <p class="post-footer align-right">
+                                
+                        </p>
+
+                        <p><br /><br /></p>
+
+ 
+    
+<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+	
+	
+	<p class="post-footer align-right"> 
+
+   <h3> HBM Satellite Meeting:Non-Standard Brain Imaging Analysis </h3>
+
+  <img src="news/meeting_image.png" style="width:40%;cursor:zoom-in"
+  onclick="document.getElementById('modal01').style.display='block'">
+
+  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img src="news/meeting_image.png" style="width:100%">
+    </div>
+  </div>
+
+       			
+ 	</p> 
+	 <p><br /><br /></p>			
+	
+	
+	
+	<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+	
+	<h3> A/P Qiu is appointed as "Dean's Chair" as the recognition of her research achievements. </h3>
+<p>
+</p>
+                
+          
+                        <p class="post-footer align-right">
+                                
+                        </p>
+
+                        <p><br /><br /></p>
+
+
+<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+
+ <h3>NUS Young Researcher Award 2016</h3>
+       <a href="http://www.nus.edu.sg/uawards/"><h4>http://www.nus.edu.sg/uawards/ </h4></a>
+            <p>
+            <a href="news/UYRA_2016.jpg"><img src="news/UYRA_2016.jpg" width="300" height="200" alt="firefox-gray"  class="float-left" /></a>
+
+             
+                 
+      </p> 
+	    <p>&nbsp;</p>
+       
+         
+                        <p class="post-footer align-right">
+                                <a href="http://www.nus.edu.sg/uawards/" class="readmore">Read more</a>
+                                
+                        </p>
+
+                        <p><br /><br /></p>
+
+<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+
+      <h3>Piecing Together Mothers Stress and Babys Genetics to
+Understand Brain Development</h3>
+       <a href="news/ajp_editorial_hudziak.pdf"><h4>source : Jim Hudziak, M.D.  Editor of American Journal of Psychiatry</h4></a>
+            <p>
+                        Human pregnancy is a unique biological and psychological
+enterprise. It can be argued that no other human life event is
+more important for the baby, nor more anxiety-provoking for
+the mother, than pregnancy. In large surveys of stressful
+life events, it is in the top group, just belowmarriage (1). The
+circumstances of pregnancy vary. Conception itself can be
+planned, a surprise, or, in instances of violence, forced upon
+a woman, and the healthy outcome of the pregnancy for both
+mother and child is inevitably a focus of concern.
+      </p>
+
+           	
+			<p class="post-footer align-right">					
+				<a href="news/ajp_editorial_hudziak.pdf" class="readmore">Read more</a>
+							</p>		
+				
+			<p><br /><br /></p>
+            
+<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+
+      <h3>Stressed mums may have 'moddy' babies</h3>
+       <a href="images/ST_stressed_mums.jpg"><h4>source : straitstimes.com</h4></a>
+            <p>
+            <a href="news/ST_stressed_mums.jpg"><img src="news/ST_stressed_mums_small.jpg" width="300" height="200" alt="firefox-gray"  class="float-left" /></a>
+            
+            
+		 <br/><br/>
+      </p>
+      <p>&nbsp;</p>
+           	 	
+			<p class="post-footer align-right">					
+				<a href="news/ST_stressed_mums.jpg" class="readmore">Read more</a>
+			</p>		
+				
+			<p><br /><br /></p>
+
+<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+       <h3>News in Zaobao</h3>
+       <a href="images/zaobao_stressed_nums.jpg"><h4>source : zaobao.com.sg </h4></a>
+            <p>
+            <a href="news/zaobao_stressed_nums.jpg"><img src="news/zaobao_stressed_nums_small.jpg" width="300" height="200" alt="firefox-gray"  class="float-left" /></a>
+             
+		 <br/>
+      </p>
+
+              <p>&nbsp;</p>
+          	
+			<p class="post-footer align-right">					
+				<a href="news/zaobao_stressed_nums.jpg" class="readmore">Read more</a>
+			</p>		
+				
+			<p><br /><br /></p>
+
+<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+      <h3>The effects of prenatal maternal depression</h3>
+       <a href="http://www.infantmentalhealth.com/_blog/news/post/the-effects-of-prenatal-maternal-depression/"><h4>source : infantmentalhealth.com , The Parent Infant Center</h4></a>
+            <p>
+           
+            There is strong evidence that a mother's depression during pregnancy tends to be associated with later psychological difficulties for her child, including the child's own depression. Are these later difficulties linked to the child's in utero experience and so directly related to the prenatal depression? Or are the child's difficulties more associated with its experiences after birth, perhaps to a continuation of the mother's depression, postpartum? Recent research suggests some answers to these questions.
+      </p>
+
+           	
+			<p class="post-footer align-right">					
+				<a href="http://www.infantmentalhealth.com/_blog/news/post/the-effects-of-prenatal-maternal-depression/" class="readmore">Read more</a>
+			</p>		
+				
+			<p><br /><br /></p>
+
+
+<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+      <h3>Maternal Depression May Affect Infant Development</h3>
+       <a href="http://psychcentral.com/news/2013/12/05/maternal-depression-may-affect-infant-development/62868.html"><h4>source : psychcentral.com </h4></a>
+            <p>
+            <a href="news/Stress-During-Pregnancy-Can-Harm-Baby-SS.jpg"><img src="news/Stress-During-Pregnancy-Can-Harm-Baby-SS.jpg" width="300" height="200" alt="firefox-gray"  class="float-left" /></a>
+            New research finds that depression among pregnant women may have an impact on their developing babies.
+Experts have observed that children of depressed parents are at an increased risk of developing depression themselves  presumably a combination of both genetic and environmental factors.
+      </p>
+
+
+           	
+			<p class="post-footer align-right">					
+				<a href="http://psychcentral.com/news/2013/12/05/maternal-depression-may-affect-infant-development/62868.html" class="readmore">Read more</a>
+				
+			</p>		
+				
+			<p><br /><br /></p>
+
+<!--added news 2018/05/31-------------------------------------------------------------------------------------------------------------->
+
+
+
+     <h3>Maternal Depression May Impact Brains of Unborn Children</h3>
+       <a href="http://psychnews.psychiatryonline.org/newsarticle.aspx?articleid=1745498"><h4>source : psychnews.psychiatryonline.org </h4></a>
+            <p>
+            <a href="http://psychnews.psychiatryonline.org/newsarticle.aspx?articleid=1745498"><img src="news/news1.png" width="270" height="200" alt="firefox-gray"  class="float-left" /></a>
+            Since depression in pregnancy has been linked with an abnormal right amygdala in newborns, and that brain region is involved in mood disorders, it's possible that depression can be transmitted from mother to child in utero.
+      </p>
+
+            
+          	
+			<p class="post-footer align-right">					
+				<a href="http://psychnews.psychiatryonline.org/newsarticle.aspx?articleid=1745498" class="readmore">Read more</a>
+				<span class="date">Sep 27, 2013</span>	
+			</p>		
+				
+		 
+            
+			
+            
+      <p>&nbsp;</p>
+
+            
+
+
+ 
+			
+<!----copy end------------------------------------------------------------------------------->
+				 
+				 
+				 
+				 
+				</div>
+
+				 
+
+	 
+	 
+	 
+	 </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 <!----luhuijun-------news scroll----end----------------------------------------------------------->
+	
+             
+	  
+             
+			<!--luhuijun--begin-------------------------------------------------------------------------------->			 
+		 	     
+	<div class="research_menu"> <!--control 50%----column width------------------> 
+			 
+			 <div  class="partner"  >
+                         <h1>Key Projects</h1>
+						 
+						 
+				<div class="column">
+					 <a href="brain_development.html">
+            
+                         <img alt="" src="images/res_pic/img5.jpg" class="img"  style="width:100%;max-width:150px;height:100px" >
+                         <h4 style="text-align:center;">Brain Development GUSTO</h4>                      
+                         </a>
+				 </div>	 		 
+						 
+				<div class="column">
+					<a  href="brain_aging.html">
+
+                         <img alt="" src="images/res_pic/subcortical_shape.jpg" class="img" style="width:100%;max-width:150px;height:100px">
+                         <h4 style="text-align:center;">Brain Aging</h4>
+                         </a> 
+				 </div>	
+				
+			 
+
+             
+
+		   
+		</div>
+    </div>    <!--control 50%---column width----------------------------------------->
+	
+ 
+
+			
+<!--luhuijun--end---------------------------------------------------------------------------------->				 
+                           <div class="w3-container " > 
+					<h1>Highlights</h1>
+					
+						<div class="w3-cell-row">
+						<div class="w3-cell" style="width:10%">
+						<img src="images/appi_ajp_2014.gif" style="width:100%">
+						</div>
+						<div class="w3-cell w3-container">
+						
+						<p><b>Anqi Qiu</b>*, Ta Anh Tuan, Mei Lyn Ong, Yue Li, Anne Rifkin-Graboi, Helen Chen, Birit FP Broekman, Kenneth Kwek, Seang-Mei Saw, Yap-Seng Chong, Peter D. Gluckman, Marielle V. Fortier, Joanna Dawn Holbrook, Michael J. Meaney, "COMT Haplotypes Modulate Associations of Antenatal Maternal Anxiety and Neonatal Cortical Morphology", American Journal of Psychiatry, 172(2):163-72, 2015.  [<b>FEATURE ARTICLE with Editors Special Comments</b>, impact factor: 14.721] </p>
+						<a href="publications/appi_ajp_2014.pdf" style="color:#4CAF50; "><b>[PDF]</a></b>
+						
+						</div>
+			</div>  
+            <hr>
+			
+			
+			<div class="w3-cell-row">
+				<div class="w3-cell" style="width:10%">
+					<img src="images/HBM_2014.gif" style="width:100%">
+				</div>
+				<div class="w3-cell w3-container">
+				 
+				<p>Jamie Yu Jin Thong, Jia Du, Nagulan Ratnarajah, Yanhong Dong, Hock Wei Soon, Monica Saini, Ming Zhen Tan, Anh Tuan Ta, Christopher Chen and <b>Anqi Qiu</b>, "Abnormalities of Cortical Thickness, Subcortical Shapes, and White Matter Integrity in Subcortical Vascular Cognitive Impairment", Human Brain Mapping, 35(5):2320-2332, 2014. </p>
+				<a href="publications/hbm22330.pdf" style="color:#4CAF50;">[PDF]</a></b>
+				
+				</div>
+			</div>
+			<hr>
+
+
+
+            <div class="w3-cell-row">
+				<div class="w3-cell" style="width:10%">
+					<img src="images/cover.gif" style="width:100%">
+				</div>
+				<div class="w3-cell w3-container">
+				 
+				<p>Xianfeng Yang, Alvina Goh, Shen-Hsing Annabel Chen and <b>Anqi Qiu</b>, "Evolution of hippocampal shapes across the human lifespan ", Human Brain Mapping, 34(11):3075-3085, 2013. </p>
+				<a href="publications/hbm22125.pdf" style="color:#4CAF50;  ">[PDF]</a></b>
+				
+				</div>
+			</div>
+			<hr>
+			
+			<div class="w3-cell-row">
+				<div class="w3-cell" style="width:10%">
+					<img src="images/image007.jpg" style="width:100%">
+				</div>
+				<div class="w3-cell w3-container">
+			 
+				<p><b>Anqi Qiu</b>, Lei Wang, Laurent Younes, Michael Harms, J. Tilak Ratnanather, Michael I. Miller, John G. Csernansky, "Neuroanatomical asymmetry patterns in individuals with schizophrenia and their non-psychotic siblings", NeuroImage, 47:1221-1229, 2009.
+		        </p>
+			    <a href="publications/nimg_2009_subcortical asymmetry.pdf" style="color:#4CAF50; ">[PDF]</a></b>
+			   
+				</div>
+			</div>
+			<hr>
+			
+			
+			<div class="w3-cell-row">
+				<div class="w3-cell" style="width:10%">
+					<img src="images/image002.jpg" style="width:100%">
+				</div>
+				<div class="w3-cell w3-container">
+				 
+				<p><b>Anqi Qiu</b>, 
+		Marc Vaillant, Patrick Barta, J. Tilak Ratnanather, Michael I. Miller, 
+		&quot;Region of Interest Based Analysis of Cortical Thickness Variation of 
+		Left Planum Temporale in Schizophrenia and Psychotic Bipolar Disorder&quot;, 
+		Human Brain Mapping, 29(8):973-985, 
+		2008. </p>
+		     <a href="publications/hbm2008.pdf" style="color:#4CAF50; ">[PDF]</a></b>
+				</div>
+			</div>
+			<hr>
+			
+			
+			<div class="w3-cell-row">
+				<div class="w3-cell" style="width:10%">
+					<img src="images/image004.jpg " style="width:100%">
+				</div>
+				<div class="w3-cell w3-container">
+			 
+				<p> <b>Anqi Qiu</b>, 
+		Laurent Younes, Michael I. Miller, "Intrinsic and Extrinsic Analysis in 
+		Computational Anatomy", NeuroImage, 39(4):1803-1814, 2008.</p>
+		    <a href="publications/nimg_2008_ieca.pdf" style="color:#4CAF50; ">[PDF]</a></b>
+				</div>
+			</div>
+			<hr>
+
+
+			<div class="w3-cell-row">
+				<div class="w3-cell" style="width:10%">
+					<img src="images/image006.jpg " style="width:100%">
+				</div>
+				<div class="w3-cell w3-container">
+				 
+				<p><b>Anqi 
+		            Qiu</b>, Laurent 
+					Younes, Lei Wang, J. Tilak Ratnanather, Sarah K. Gillepsie, Gillian 
+					Kaplan, John Csernansky, Michael I. Miller, "Combining Anatomical 
+					Manifold Information via Diffeomorphic Metric Mappings for Studying 
+					Cortical Thinning of the Cingulate Gyrus in Schizophrenia", Neuroimage, 
+					37, 821-833, 2007.</p>
+					
+					<a href="publications/nimg_2007_thickness.pdf" style="color:#4CAF50; ">[PDF]</a></b>
+				</div>
+			</div>
+			<hr>
+			
+			<div class="w3-cell-row">
+				<div class="w3-cell" style="width:10%">
+					<img src="images/ajp_adhd_2009.jpg" style="width:100%">
+				</div>
+				<div class="w3-cell w3-container">
+				 
+				<p><b>Anqi 
+						Qiu</b>,  Deana Crocetti, Marcy Adler, Mark Mahone, Martha Deckla, 
+						Michael I. Miller, and Stewart H. Mostofsy, "Basal ganglia volume and shape in 
+								children with ADHD", Am J Psychiatry,166:74-82, 2009. (<b>FEATURE ARTICLE</b>)  </p>
+					<a href="publications/adhd_ajp_2009.pdf" style="color:#4CAF50; ">[PDF]</a></b>			
+				</div>
+			</div>
+			<hr>
+
+		 
+                         </div>
+
+          </div>
+          
+     </div>
+          
+			<!-- #EndEditable -->
+          </div>
+         
+     
+     </div>
+     
+    <div id="footer-bg">
+          
+      </div> 
+
+     <div id="bottom-bg">
+          <div id="bottom">
+          	 
+         </div>
+     </div> 
+
+</div>
+
+</body>
+<!-- #EndTemplate -->
+</html>
+
