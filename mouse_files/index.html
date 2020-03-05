@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<meta name="Description" content="Information architecture, Web Design, Web Standards." />
+<meta name="Keywords" content="your, keywords" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+<meta name="Robots" content="index,follow" />		
+
+<link rel="stylesheet" href="css/EliteCircle.css" type="text/css" />
+<!--<link href="css/style.css" rel="stylesheet" type="text/css" />-->
+<link rel="stylesheet" type="text/css" href="css/skin.css" />
+
+<link rel="stylesheet" type="text/css" href="./css/pro_drop_1.css" />
+
+
+<!--<link rel="stylesheet" type="text/css" href="css/menu.css">-->
+<!--<link rel="stylesheet" type="text/css" href="css/global.css">
+
+<link rel="stylesheet" type="text/css" href="css/sidenav.css">-->
+<!--<link rel="stylesheet" type="text/css" href="css/homepage.css">-->
+
+<title>CFA</title>
+	
+<script src="./script/jquery.js" type="text/javascript">
+</script>
+
+<script src="./script/stuHover.js" type="text/javascript"></script>
+<!--<script src="./script/menu.js" type="text/javascript">
+</script>-->
+
+<!--<script src="./script/jcarousellite_1.0.1.pack.js" type="text/javascript">
+</script>-->
+
+<script type="text/javascript" src="script/jquery.jcarousel.min.js"></script>
+
+<script type="text/javascript">
+
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+   // carousel.buttonNext.bind('click', function() {
+//        carousel.startAuto(0);
+//    });
+//
+//    carousel.buttonPrev.bind('click', function() {
+//        carousel.startAuto(0);
+//    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+		visible: 2,
+		scroll:1,
+        auto: 1,
+        wrap: 'circular',
+        initCallback: mycarousel_initCallback
+    });
+});
+
+
+</script>
+
+<!--<script type="text/javascript" src="./script/bannerRotator.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){  
+  bannerRotator('#bannerRotator', 500, 6000, true);
+});
+</script>
+
+<script type="text/javascript">
+$(function() {
+  $(".newsticker-jcarousellite").jCarouselLite({
+    vertical: true,
+    hoverPause:true,
+    visible: 1,
+    auto:8000,
+    speed:3000
+  });
+});
+</script>-->
+
+<script src="./script/jquery.rss.js" type="text/javascript">
+</script>
+
+<script src="./script/jquery.formatDateTime.min.js" type="text/javascript">
+</script>
+
+
+</head>
+
+<body>
+	
+	<!-- header starts here -->
+	<div id="header-wrap"><div id="header-content">	
+		<p id="logoimg" name="logoimg"><a href="index.html"><img src="images/nuslogo.png"  alt="firefox-gray"  class="float-left" /></a>
+     </p>
+		<h1 id="logo"><a href="index.html" title="">Computational Functional Anatomy Lab<span class="orange"></span></a></h1>
+		<div id="header-links">
+	  <p>
+				| <a href="contact.html">Contact</a> | 
+							
+			</p>		
+		</div>
+		
+		<!-- Menu Tabs -->
+        
+		<ul id="nav">
+			<li class="top"><a href="#" id="current" ><span>Home</span></a></li>
+			<li class="top"><a href="research.html" ><span class="down">RESEARCH</span></a>
+            <ul class="sub">
+                  <li><a href="research_topic.html" class="fly" >Topics and Projects</a>
+                  		<ul>
+			<li><a href="imaginggenetics.html">Imaging Genetics</a></li>
+                        <li><a href="gusto.html">Brain Development -- GUSTO</a></li>
+                        <li><a href="manifold_shape.html">Manifold Learning</a></li>
+                        <li><a href="signal.html">Signal Processing on Manifold</a></li>
+                        <li><a href="subcortical_shape.html">Subcortical Shape Analysis</a></li>
+                        </ul>
+                  </li>     
+                  <li><a href="research_atlas.html" class="fly">Atlases</a>
+                  <ul>
+                  <li><a href="brain_atlas.html">Human Brain Atlas</a></li>
+                  <li><a href="infant_atlas.html">Infant Atlas</a></li>
+                  <li><a href="mouse_atlas.html">Mouse Atlas</a></li>
+                  </ul>
+                  </li>
+      		</ul>
+             </li>  
+			<li class="top"><a href="publication.html"  ><span>PUBLICATIONS</span></a></li>
+			<li class="top"><a href="poster.html" ><span>POSTERS</span></a></li>
+			<li class="top"><a href="job.html" ><span>JOBS</span></a></li>			
+		</ul>		
+			
+	<!-- header ends here -->
+</div></div>
+				
+	<!-- content-wrap starts here -->
+	<div id="content-wrap"><div id="content">	 
+	
+    <div id="sidebar">	
+	
+				<ul id="nav2" class="sidemenu">
+					<li><a href="imaginggenetics.html">Imaging Genetics</a></li>
+					<li><a href="gusto.html">Brain Development -- GUSTO </a></li>
+                    <li><a href="manifold_shape.html">Manifold Learning - Anatomical Shapes</a></li>
+					<li><a href="signal.html">Signal Processing on Manifold</a></li>
+					<li><a href="subcortical_shape.html">Subcortical Shape Analysis</a></li>
+					
+					<li class="top"><a href="research_atlas.html"><span class="down">Atlases</span></a>
+                    <ul class="sub">
+                    <li><a href="brain_atlas.html">Human Brain Atlas</a></li>
+                    <li><a href="infant_atlas.html">Infant Atlas</a></li>
+                    <li><a href="mouse_atlas.html">Mouse Atlas</a></li>
+                    </ul>
+                    </li>
+                   
+				</ul>		
+						
+							
+								
+		</div>	
+        
+	<div id="main">		
+    <ul id="mycarousel" class="jcarousel-skin-tango">
+    <li><img src="banner/brain_resize.jpg" alt="" />
+    <div class="banner-caption">Brain image and cortical surface 
+</div>
+    </li>
+    <li><img src="banner/curves_resize.jpg"  alt="" />
+    <div class="banner-caption">Gyral and sulcal curves 
+</div></li>
+    <li><img class="center" src="banner/sulcal_resize.jpg" alt="" />
+    <div class="banner-caption">Sulcal regions
+</div></li>
+    <li><img class="center" src="banner/subcortical_resize.jpg" alt="" /><div class="banner-caption">Subcortical shapes 
+</div></li>
+	<li><img class="center" src="banner/subcortical_2_resize.jpg" alt="" /><div class="banner-caption">Subcortical shapes 
+</div></li>
+    <li><img class="center" src="banner/subcortical_compare_resize.jpg" alt="" /><div class="banner-caption">Subcortical shapes comparison 
+</div></li>
+	<li><img class="center" src="banner/manifold_learning_resize.jpg" alt="" /><div class="banner-caption">Manifold learning for shapes
+</div></li>
+	<li><img class="center" src="banner/dti_fiber_resize.jpg"  alt="" /><div class="banner-caption">DTI fiber bundles
+</div></li>
+	<li><img class="center" src="banner/dti_fiber_surface_resize.jpg"  alt="" /><div class="banner-caption">Surface representation of DTI fiber bundles 
+</div></li>
+	<li><img class="center" src="banner/ad_abnormal_resize.jpg"  alt="" /><div class="banner-caption">Alzheimer's Disease white matter abnormalities
+</div></li>
+	<li><img class="center" src="banner/vad_abnormal_resize.jpg"  alt="" />
+	<div class="banner-caption">Vascular Dementia white matter abnormalities 
+</div></li>
+	<li><img class="center" src="banner/neonatal_dwi_resize.jpg"  alt="" /><div class="banner-caption">Neonatal DWI images
+</div></li>
+	<li><img class="center" src="banner/neonatal_network_resize.jpg"  alt="" /><div class="banner-caption">Neonatal brain anatomical network
+</div></li>
+	<li><img class="center" src="banner/neonatal_hub_resize.jpg"  alt="" /><div class="banner-caption">Neonatal brain hubs 
+</div></li>
+	<li><img class="center" src="banner/resting_fmri_resize.jpg"  alt="" /><div class="banner-caption">Resting-state fMRI
+</div></li>
+	<li><img class="center" src="banner/cortical_functional_resize.jpg"  alt="" /><div class="banner-caption">Cortical functional network
+</div></li>
+  </ul>
+  
+<!--		<table>
+        <tr><td>
+		<div id="bannerRotator">
+
+		<ul>
+          <li rel="1">
+    		<div class="banner-caption">Brain image and cortical surface  </div>
+    		<a href="#">
+    		<img src="banner/brain.jpg" alt="image and surface"></a>
+   			</li> 
+
+            <li rel="2">
+    		<div class="banner-caption">gyral and sulval curves</div>
+   			<a href="#">        
+            <img src="banner/curves.jpg" alt="curves"></a>
+            </li>
+            
+            <li rel="3" >
+            <div class="banner-caption">Sulcal regions</div>
+            <a href="#">        
+            <img src="banner/sulcal.jpg" alt="sulcal_regions"></a>
+            </li>
+		</ul>
+		<div id="bannerNav" timeoutid="3">
+            <a rel="1" href="#"></a> 
+            <a rel="2" href="#" ></a> 
+            <a rel="3" href="#" ></a>
+            <span class="pause"></span> 
+            <span href="#" class="play" style="display:none;"></span> </div>
+        </div>
+		</td>
+        <td>
+		<div id="bannerRotator">
+
+		<ul>
+          <li rel="1">
+    		<div class="banner-caption">Brain image and cortical surface  </div>
+    		<a href="#">
+    		<img src="banner/brain.jpg" alt="image and surface"></a>
+   			</li> 
+
+            <li rel="2">
+    		<div class="banner-caption">gyral and sulval curves</div>
+   			<a href="#">        
+            <img src="banner/curves.jpg" alt="curves"></a>
+            </li>
+            
+            <li rel="3" >
+            <div class="banner-caption">Sulcal regions</div>
+            <a href="#">        
+            <img src="banner/sulcal.jpg" alt="sulcal_regions"></a>
+            </li>
+		</ul>
+		<div id="bannerNav" timeoutid="3">
+            <a rel="1" href="#"></a> 
+            <a rel="2" href="#" ></a> 
+            <a rel="3" href="#" ></a>
+            <span class="pause"></span> 
+            <span href="#" class="play" style="display:none;"></span> </div>
+        </div>
+		</td>
+        </tr>
+        </table>-->
+
+<h2>&nbsp;</h2>
+<h2>News </h2>
+
+
+<h3> Judy's paper is accepted by Cerebral Cortex </h3>
+                <br />
+            <br />
+                        <p class="post-footer align-right">
+                                <a href="http://cercor.oxfordjournals.org" class="readmore">Read more</a>
+                                <span class="date">Sep 7, 2016</span>
+                        </p>
+
+                        <p><br /><br /></p>
+
+
+ <h3>NUS Young Researcher Award 2016</h3>
+       <a href="http://www.nus.edu.sg/uawards/"><h4>http://www.nus.edu.sg/uawards/ </h4></a>
+            <p>
+            <a href="news/UYRA_2016.jpg"><img src="news/UYRA_2016.jpg" width="270" height="200" alt="firefox-gray"  class="float-left" /></a>
+
+            <br/><br/><br/>
+                 <br/><br/>
+      </p>
+
+                <br />
+            <br />
+                        <p class="post-footer align-right">
+                                <a href="http://www.nus.edu.sg/uawards/" class="readmore">Read more</a>
+                                <span class="date">April 29, 2016</span>
+                        </p>
+
+                        <p><br /><br /></p>
+
+
+
+      <h3>Piecing Together Mother’s Stress and Baby’s Genetics to
+Understand Brain Development</h3>
+       <a href="news/ajp_editorial_hudziak.pdf"><h4>source : Jim Hudziak, M.D.  Editor of American Journal of Psychiatry</h4></a>
+            <p>
+                        Human pregnancy is a unique biological and psychological
+enterprise. It can be argued that no other human life event is
+more important for the baby, nor more anxiety-provoking for
+the mother, than pregnancy. In large surveys of stressful
+life events, it is in the top group, just belowmarriage (1). The
+circumstances of pregnancy vary. Conception itself can be
+planned, a surprise, or, in instances of violence, forced upon
+a woman, and the healthy outcome of the pregnancy for both
+mother and child is inevitably a focus of concern.
+      </p>
+
+           	
+			<p class="post-footer align-right">					
+				<a href="news/ajp_editorial_hudziak.pdf" class="readmore">Read more</a>
+				<span class="date">Feb 2, 2015</span>	
+			</p>		
+				
+			<p><br /><br /></p>
+
+      <h3>Stressed mums may have 'moddy' babies</h3>
+       <a href="images/ST_stressed_mums.jpg"><h4>source : straitstimes.com</h4></a>
+            <p>
+            <a href="news/ST_stressed_mums.jpg"><img src="news/ST_stressed_mums_small.jpg" width="270" height="200" alt="firefox-gray"  class="float-left" /></a>
+            
+            <br/><br/><br/>
+		 <br/><br/>
+      </p>
+
+           	<br />
+            <br />		
+			<p class="post-footer align-right">					
+				<a href="news/ST_stressed_mums.jpg" class="readmore">Read more</a>
+				<span class="date">Feb 16, 2015</span>	
+			</p>		
+				
+			<p><br /><br /></p>
+
+       <h3>News in Zaobao</h3>
+       <a href="images/zaobao_stressed_nums.jpg"><h4>source : zaobao.com.sg </h4></a>
+            <p>
+            <a href="news/zaobao_stressed_nums.jpg"><img src="news/zaobao_stressed_nums_small.jpg" width="270" height="200" alt="firefox-gray"  class="float-left" /></a>
+            <br/><br/>
+		 <br/><br/><br/>
+      </p>
+
+           	<br />
+            <br />		
+			<p class="post-footer align-right">					
+				<a href="news/zaobao_stressed_nums.jpg" class="readmore">Read more</a>
+				<span class="date">Feb 15, 2015</span>	
+			</p>		
+				
+			<p><br /><br /></p>
+
+      <h3>The effects of prenatal maternal depression</h3>
+       <a href="http://www.infantmentalhealth.com/_blog/news/post/the-effects-of-prenatal-maternal-depression/"><h4>source : infantmentalhealth.com , The Parent Infant Center</h4></a>
+            <p>
+           
+            There is strong evidence that a mother's depression during pregnancy tends to be associated with later psychological difficulties for her child, including the child's own depression. Are these later difficulties linked to the child's in utero experience and so directly related to the prenatal depression? Or are the child's difficulties more associated with its experiences after birth, perhaps to a continuation of the mother's depression, postpartum? Recent research suggests some answers to these questions.
+      </p>
+
+           	
+			<p class="post-footer align-right">					
+				<a href="http://www.infantmentalhealth.com/_blog/news/post/the-effects-of-prenatal-maternal-depression/" class="readmore">Read more</a>
+				<span class="date">March 22, 2015</span>	
+			</p>		
+				
+			<p><br /><br /></p>
+
+      <h3>Maternal Depression May Affect Infant Development</h3>
+       <a href="http://psychcentral.com/news/2013/12/05/maternal-depression-may-affect-infant-development/62868.html"><h4>source : psychcentral.com </h4></a>
+            <p>
+            <a href="news/Stress-During-Pregnancy-Can-Harm-Baby-SS.jpg"><img src="news/Stress-During-Pregnancy-Can-Harm-Baby-SS.jpg" width="270" height="200" alt="firefox-gray"  class="float-left" /></a>
+            New research finds that depression among pregnant women may have an impact on their developing babies.
+Experts have observed that children of depressed parents are at an increased risk of developing depression themselves — presumably a combination of both genetic and environmental factors.
+      </p>
+
+
+            <br />		
+			<p class="post-footer align-right">					
+				<a href="http://psychcentral.com/news/2013/12/05/maternal-depression-may-affect-infant-development/62868.html" class="readmore">Read more</a>
+				<span class="date">Dec 05, 2013</span>	
+			</p>		
+				
+			<p><br /><br /></p>
+
+     <h3>Maternal Depression May Impact Brains of Unborn Children</h3>
+       <a href="http://psychnews.psychiatryonline.org/newsarticle.aspx?articleid=1745498"><h4>source : psychnews.psychiatryonline.org </h4></a>
+            <p>
+            <a href="http://psychnews.psychiatryonline.org/newsarticle.aspx?articleid=1745498"><img src="news/news1.png" width="270" height="200" alt="firefox-gray"  class="float-left" /></a>
+            Since depression in pregnancy has been linked with an abnormal right amygdala in newborns, and that brain region is involved in mood disorders, it's possible that depression can be transmitted from mother to child in utero.
+      </p>
+
+           	<br />
+            <br />		
+			<p class="post-footer align-right">					
+				<a href="http://psychnews.psychiatryonline.org/newsarticle.aspx?articleid=1745498" class="readmore">Read more</a>
+				<span class="date">Sep 27, 2013</span>	
+			</p>		
+				
+			<p><br /><br /></p>
+            
+			
+            
+      <p>&nbsp;</p>
+
+            <table>
+<tr>
+		<td >
+		<p >
+		<img border="0" src="images/appi_ajp_2014.gif" width="84" height="115"></p></td>
+		<td>
+		<p ><b>Anqi Qiu</b>*, Ta Anh Tuan, Mei Lyn Ong, Yue Li, Anne Rifkin-Graboi, Helen Chen, Birit FP Broekman, Kenneth Kwek, Seang-Mei Saw, Yap-Seng Chong, Peter D. Gluckman, Marielle V. Fortier, Joanna Dawn Holbrook, Michael J. Meaney, "COMT Haplotypes Modulate Associations of Antenatal Maternal Anxiety and Neonatal Cortical Morphology", American Journal of Psychiatry, 172(2):163-72, 2015.  [<b>FEATURE ARTICLE with Editor’s Special Comments</b>, impact factor: 14.721]
+</p>
+		<p ><b>
+		<a href="publications/appi_ajp_2014.pdf">[PDF]</a></b></td>
+	</tr>
+
+            <tr>
+		<td >
+		<p >
+		<img border="0" src="images/HBM_2014.gif" width="84" height="115"></p></td>
+		<td>
+		<p >Jamie Yu Jin Thong, Jia Du, Nagulan Ratnarajah, Yanhong Dong, Hock Wei Soon, Monica Saini, Ming Zhen Tan, Anh Tuan Ta, Christopher Chen and <b>Anqi Qiu</b>, "Abnormalities of Cortical Thickness, Subcortical Shapes, and White Matter Integrity in Subcortical Vascular Cognitive Impairment", Human Brain Mapping, 35(5):2320-2332, 2014.</p>
+		<p ><b>
+		<a href="publications/hbm22330.pdf">[PDF]</a></b></td>
+	</tr>
+            <tr>
+		<td >
+		<p >
+		<img border="0" src="images/cover.gif" width="84" height="115"></p></td>
+		<td>
+		<p >Xianfeng Yang, Alvina Goh, Shen-Hsing Annabel Chen and <b>Anqi Qiu</b>, "Evolution of hippocampal shapes across the human lifespan ", Human Brain Mapping, 34(11):3075-3085, 2013.</p>
+		<p ><b>
+		<a href="publications/hbm22125.pdf">[PDF]</a></b></td>
+	</tr>
+	<tr>
+		<td >
+		<p >
+		<img border="0" src="images/image007.jpg" width="84" height="115"></p></td>
+		<td>
+		<p ><b>Anqi Qiu</b>, Lei Wang, Laurent Younes, Michael Harms, J. Tilak Ratnanather, Michael I. Miller, John G. Csernansky, "Neuroanatomical asymmetry patterns in individuals with schizophrenia and their non-psychotic siblings", NeuroImage, 47:1221-1229, 2009..</p>
+		<p ><b>
+		<a href="publications/nimg_2009_subcortical asymmetry.pdf">[PDF]</a></b></td>
+	</tr>
+	<tr>
+		<td >
+		
+		<p>
+		<img border="0" src="images/image002.jpg" width="84" height="109"></p></td>
+		<td >
+		<p ><b>Anqi Qiu</b>, 
+		Marc Vaillant, Patrick Barta, J. Tilak Ratnanather, Michael I. Miller, 
+		&quot;Region of Interest Based Analysis of Cortical Thickness Variation of 
+		Left Planum Temporale in Schizophrenia and Psychotic Bipolar Disorder&quot;, 
+		Human Brain Mapping, 29(8):973-985, 
+		2008.</p>
+		<p ><b>
+		<a href="publications/hbm2008.pdf">[PDF]</a></b></td>
+	</tr>
+	<tr>
+		<td >
+		<p >
+		<img border="0" src="images/image004.jpg" width="84" height="103"></p></td>
+		<td >
+		<p ><b>Anqi Qiu</b>, 
+		Laurent Younes, Michael I. Miller, "Intrinsic and Extrinsic Analysis in 
+		Computational Anatomy", NeuroImage, 39(4):1803-1814, 2008.</p>
+		<p ><b>
+		<a href="publications/nimg_2008_ieca.pdf">[PDF]</a></b></td>
+	</tr>
+	<tr>
+		<td >
+		<p >
+		<img border="0" src="images/image006.jpg" width="84" height="115"></p></td>
+		<td >
+		<p><b>Anqi 
+		Qiu</b>, Laurent 
+		Younes, Lei Wang, J. Tilak Ratnanather, Sarah K. Gillepsie, Gillian 
+		Kaplan, John Csernansky, Michael I. Miller, "Combining Anatomical 
+		Manifold Information via Diffeomorphic Metric Mappings for Studying 
+		Cortical Thinning of the Cingulate Gyrus in Schizophrenia", Neuroimage, 
+		37, 821-833, 2007.</p>
+		<p ><b>
+		<a href="publications/nimg_2007_thickness.pdf">[PDF]</a></b></td>
+	</tr>
+		<tr>
+		<td >
+		<p >
+		<img border="0" src="images/ajp_adhd_2009.jpg" width="84" height="115"></p></td>
+		<td>
+		<p ><b>Anqi 
+		Qiu</b>,  Deana Crocetti, Marcy Adler, Mark Mahone, Martha Deckla, 
+Michael I. Miller, and Stewart H. Mostofsy, "Basal ganglia volume and shape in 
+children with ADHD", Am J Psychiatry,166:74-82, 2009. (<b>FEATURE ARTICLE</b>) 
+		</p>
+		<p ><b>
+		<a href="publications/adhd_ajp_2009.pdf">[PDF]</a></b>></td>
+	</tr>
+</table>								
+		</div>		
+	
+		
+				
+	
+	<!-- content-wrap ends here -->		
+	</div></div>
+
+	<!-- footer starts here -->	
+	<div id="footer-wrap"><div id="footer-content">
+	 
+     <div class="col float-left">
+        CFA
+         <br />
+        Department of Biomedical Engineering
+        <br />
+        Faculty of Engineering
+        <br />
+        National University of Singapore
+        <br />
+        2 Engineering Drive 3
+        <br />
+        Block E3 #05-28
+        Singapore 117581
+
+		</div>		
+        <div class="col float-right">
+        <script type="text/javascript"><!--
+document.write("Last Published: " + document.lastModified);
+//  -->
+</script>
+        </div>
+		</div></div>
+        
+	<!-- footer ends here -->
+
+</body>
+</html>
