@@ -141,13 +141,6 @@
 </div>
 	  
 	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
 	  <!--luhuijun----header----end------------------------------------------------>
      
     
@@ -196,10 +189,8 @@ Moreover, the down-sampling of a semi-regular mesh embedded in a 3D Euclidean sp
                 <p>&nbsp;</p>
      <p style="myfont" >
 We revisit spectral graph convolutional neural networks (graph-CNNs) given in Defferrard (2016) and develops the Laplace-Beltrami CNN (LB-CNN) by replacing the graph Laplacian with the LB operator. We then define spectral filters via the LB operator on a graph. We explore the feasibility of Chebyshev, Laguerre, and Hermite polynomials to approximate LB-based spectral filters and define an update of the LB operator for pooling in the LB-CNN. We employ the brain image data from Alzheimer's Disease Neuroimaging Initiative (ADNI) and demonstrate the use of the proposed LB-CNN. Based on the cortical thickness of the ADNI dataset, we showed that the LB-CNN didn't improve classification accuracy compared to the spectral graph-CNN. The three polynomials had a similar computational cost and showed comparable classification accuracy in the LB-CNN or spectral graph-CNN. Our findings suggest that even though the shapes of the three polynomials are different, deep learning architecture allows us to learn spectral filters such that the classification performance is not dependent on the type of the polynomials or the operators (graph Laplacian and LB operator). 
-
 </p>
 
-<p>&nbsp;</p>
 <h3>Reference</h3>
 <p style="myfont">[1] Shih-Gu Huang, Moo Chung, Anqi Qiu, <a style="text-decoration: underline;" href="https://arxiv.org/abs/2010.13269"> Revisiting convolutional neural network on graphs with polynomial approximations of Laplace-Beltrami spectral filtering. </a> </p>
 
@@ -221,7 +212,6 @@ We revisit spectral graph convolutional neural networks (graph-CNNs) given in De
 Deep neural networks have recently been recognized as one of the powerful learning techniques in  computer vision and medical image analysis. Trained deep neural networks need to be generalizable to new data that was not seen before. In practice, there is often insufficient training data available and augmentation is used to expand the dataset. Even though graph convolutional neural network (graph-CNN) has been widely used in deep learning, there is a lack of augmentation methods to generate data on graphs or surfaces. This study proposes two unbiased  augmentation methods,  Laplace-Beltrami eigenfunction Data Augmentation (LB-eigDA) and Chebyshev polynomial Data Augmentation (C-pDA), to generate new data on surfaces, whose mean is the same as that of real data. LB-eigDA augments data via the resampling of the LB coefficients. In parallel with LB-eigDA, we introduce a fast augmentation approach, C-pDA, that employs a polynomial approximation of LB spectral filters on surfaces. We design LB spectral bandpass filters by Chebyshev polynomial approximation and resample signals filtered via these filters to generate new data on surfaces. We first validate LB-eigDA and C-pDA via simulated data and demonstrate their use for improving classification accuracy. We then employ the brain images of Alzheimer's Disease Neuroimaging Initiative (ADNI) and extract cortical thickness that is represented on the cortical surface to illustrate the use of the two augmentation methods. We demonstrate that augmented cortical thickness has a similar pattern to real data. We also show that C-pDA is faster than LB-eigDA and can improve the AD classification accuracy of graph-CNN. 
 </p>
 
- <p>&nbsp;</p>
 <h3>Reference</h3>
 <p style="myfont">[1] Shih-Gu Huang, Moo Chung, Anqi Qiu, <a style="text-decoration: underline;" href="https://arxiv.org/abs/2010.02811"> Fast Mesh Data Augmentation via Chebyshev Polynomial of Spectral filtering. </a> </p>
 
